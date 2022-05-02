@@ -4,9 +4,12 @@ const yaml = require('yamljs');
 const json5 = require('json5');
 
 module.exports = {
-  entry: './src/index.js',
-  output: {    
-    filename: 'bundle.js',
+  entry: {
+    index: './src/index.js',
+    print: './src/print.js',
+  },
+  output: {   
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
