@@ -7,4 +7,4 @@ A brief code-along:
 - Creating a bundle
 - Modules
 
-* from The Odin Project
+~ from The Odin Project ~
