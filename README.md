@@ -6,5 +6,7 @@ A brief code-along:
 - Using a configuration
 - Creating a bundle
 - Modules
+- Plugins
+- Source Maps
 
 ~ from The Odin Project ~
